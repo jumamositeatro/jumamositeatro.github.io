@@ -12,7 +12,7 @@
 # -------
 es: &DEFAULT_ES
   header:
-    title: La sirena en la niebla
+    title: "<img src='assets/img/titulosirena.png' style='width: 100%;'>" #La sirena en la niebla
     text: 10, 23 y 24 de mayo
     button: COMPRAR ENTRADAS
     buttonlink: "https://www.dinaticket.com/es/provider/502/event/4921146"
@@ -149,8 +149,6 @@ es: &DEFAULT_ES
     social:
       - url: https://instagram.com/jumamositeatro
         icon: "fab fa-instagram"
-      - url: https://instagram.com
-        icon: "fab fa-email"
 es-ES:
   <<: *DEFAULT_ES
 es-CO:
