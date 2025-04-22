@@ -1,6 +1,9 @@
 // Global styling for this template
 body {
   overflow-x: hidden;
+  background-colorx: $gray-900;
+  background-image: url("../img/fondomar.jpg");
+  color: white;
   @include body-font;
 }
 
