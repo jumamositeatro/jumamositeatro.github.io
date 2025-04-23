@@ -37,6 +37,11 @@
       }
     }
   }
+  &.navbar-shrink {
+    img {
+      max-height: 50px !important;
+    }
+  }
 }
 @media (min-width: 992px) {
   #mainNav {
