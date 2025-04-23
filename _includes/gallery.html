@@ -13,7 +13,7 @@
     <div class="carousel-inner">
       {% for image in site.data.gallery.images %}
         <div class="carousel-item {% if forloop.first -%} active {% endif %}">
-          <img class="d-block w-100" src="{{ image.path }}" alt="{{ image.title | default: "La sirena en la niebla" }}"  style="height: 500px;">
+          <img class="d-block w-100" src="{{ image.path }}" alt="{{ image.title | default: "La sirena en la niebla" }}">
         </div>
       {% endfor %}
     </div>
