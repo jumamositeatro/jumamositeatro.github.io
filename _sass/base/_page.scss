@@ -5,6 +5,7 @@ body {
   background-image: url("../img/fondomar.jpg");
   background-position: bottom;
   background-repeat: no-repeat;
+  background-size: auto 100%;
   color: white;
   @include body-font;
 }
