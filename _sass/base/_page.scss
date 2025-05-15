@@ -3,6 +3,8 @@ body {
   overflow-x: hidden;
   background-color: $gray-900;
   background-image: url("../img/fondomar.jpg");
+  background-position: bottom;
+  background-repeat: no-repeat;
   color: white;
   @include body-font;
 }
