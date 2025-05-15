@@ -1,0 +1,21 @@
+<!-- Ratings -->
+ 
+{% if site.data.ratings.ratings %}
+<section class="page-section" id="ratings">
+    <div class="container">
+      <div class="row text-center">
+        {% for rating in site.data.ratings.ratings %}
+        <div class="col-md-4">
+              <h4 class="service-heading">{{ rating.source | markdownify }}</h4>
+              <p class="stars">
+                {% for star in (1..rating.stars) %}
+                <img class="star" src="assets/img/star.png" style="height: 35px;" />
+                {% endfor %}
+              </p>
+              <div class="text-muted">{{ rating.comment | markdownify }}</div>
+            </div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+{% endif %}
