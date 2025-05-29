@@ -120,28 +120,28 @@ es: &DEFAULT_ES
     people:
       - name: "David Arroyo"
         role: "Fer (Ulises)"
-        image: assets/img/team/david.jpg
+        image: assets/img/team/david2.jpg
       - name: "Chelo Fernández"
         role: "Sirena"
-        image: assets/img/team/chelo.jpg
+        image: assets/img/team/chelo2.jpg
       - name: "Martina Bécares"
         role: "Elvira"
-        image: assets/img/team/martina.jpg
+        image: assets/img/team/martina3.jpg
       - name: "Román Wang"
         role: "Sombra / Vincent"
-        image: assets/img/team/roman.jpg
+        image: assets/img/team/roman2.jpg
       - name: "Elena Jurado"
         role: "Delfos"
-        image: assets/img/team/elena.jpg
+        image: assets/img/team/elena3.jpg
       - name: "Lucía Mos"
         role: "Púa (Beca)"
-        image: assets/img/team/lucia.jpg
+        image: assets/img/team/lucia4.jpg
       - name: "Rebeca Liviano"
         role: "Ánima / Blaylock"
-        image: assets/img/team/rebeca.jpg
+        image: assets/img/team/rebeca3.jpg
       - name: "Álex Martínez"
         role: "Juglar / Castro"
-        image: assets/img/team/alex.jpg
+        image: assets/img/team/alex2.jpg
 
   contact:
     title: "Contáctanos"
