@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Privacy Policy
-background: grey
+background: darkgrey
 ---
 
 <div class="col-lg-12 text-center">

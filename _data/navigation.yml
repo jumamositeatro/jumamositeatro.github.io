@@ -1,33 +1,25 @@
-#
-# Work based on https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml
-#
-# Configuration: Add to _config.yml
-# locale: "en-US"  [YOUR PREFERRED LOCALE]
-#
-# How to use:
-# {{ site.data.navigation[site.locale].nav.<var_name> | default: 'text' }}
+navX:
+  - title: "Inicio"
+    url: "index.html"
+  - title: "La sirena en la niebla"
+    url: "sirena.html"
+  - title: "Nosotros"
+    url: "nosotros.html"
 
-
-# Spanish
-# -------
-es: &DEFAULT_ES
-  nav:
-    - title: "Servicios"
-      section: servicios
-    - title: "Portafolio"
-      section: portafolio
-    - title: "Sobre Nosotros"
-      section: nosotros
-    - title: "Cronología"
-      section: cronologia
-    - title: "Equipo"
-      section: equipo
-    - title: "Contáctenos"
-      section: contacto
-    - title: "Fuente de la plantilla"
-      url: https://github.com/raviriley/agency-jekyll-theme/
-
-# English (default)
-# -----------------
-en:
-  <<: *DEFAULT_ES
+navXXX:
+  - title: "Servicios"
+    section: servicios
+  - title: "Servicios"
+    section: servicios
+  - title: "Portafolio"
+    section: portafolio
+  - title: "Sobre Nosotros"
+    section: nosotros
+  - title: "Cronología"
+    section: cronologia
+  - title: "Equipo"
+    section: equipo
+  - title: "Contáctenos"
+    section: contacto
+  - title: "Fuente de la plantilla"
+    url: https://github.com/raviriley/agency-jekyll-theme/

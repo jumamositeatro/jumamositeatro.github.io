@@ -11,12 +11,6 @@
 # Spanish
 # -------
 es: &DEFAULT_ES
-  header:
-    title: "<img src='assets/img/titulosirena.png' style='width: 100%;'>" #La sirena en la niebla
-    textx: ¡Última oportunidad!<br />20 de junio
-    buttonx: COMPRAR ENTRADAS
-    buttonlinkx: "https://www.atrapalo.com/entradas/la-sirena-en-la-niebla_e4921146/"
-
   servicesx:
     title: "Servicios"
     text: "Lorem ipsum"
@@ -69,21 +63,6 @@ es: &DEFAULT_ES
         align: right
     end: "¡Se parte <br> de Nuestra <br> Historia!"
 
-  about:
-    title: "La obra"
-    #text: "nuestra historia"
-    body: "
-  **Fer**, un famoso cantante de rock que está pasando un momento de crisis existencial, reúne en un faro una comunidad de gente peculiar: **soñadora, creativa y excepcional**, huyendo del gris vacío de lo mundano y el sentido común. \
-  <br /><br />
-  Fer se encontrará en un conflicto interno ante la llegada de **Elvira**, su manager que siempre lo aleja de sus ideas más extravagantes, y la aparición en el faro de una **sirena de fantasía** obsesionada por el mar, en la que encontrará el amor. Mientras Fer se debate en su dilema, descubrirá la verdadera historia detrás de estos personajes excéntricos que forman la comunidad.
-  <br /><br />
-  Duración: 90 minutos aprox.
-  <br />
-  Edad recomendada: 16+
-  "
-
-    section: nosotros
-
   clientsx:
     section: clientes
     max-height: 100px
@@ -101,47 +80,6 @@ es: &DEFAULT_ES
       - title: "Creative Market"
         url: https://github.com/raviriley/agency-jekyll-theme
         logo: assets/img/clients/creative-market.jpg
-
-  teamtec:
-    title: "EQUIPO TÉCNICO"
-    #text: "Lorem ipsum dolor sit amet consectetur."
-    #subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
-    section: equipo2
-    people:
-      - name: "Andrés Viedma"
-        role: "Dirección / guión"
-        image: assets/img/team/andres.jpg
-
-  team:
-    title: "ELENCO"
-    #text: "Lorem ipsum dolor sit amet consectetur."
-    #subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
-    section: equipo
-    people:
-      - name: "David Arroyo"
-        role: "Fer (Ulises)"
-        image: assets/img/team/david2.jpg
-      - name: "Chelo Fernández"
-        role: "Sirena"
-        image: assets/img/team/chelo2.jpg
-      - name: "Martina Bécares"
-        role: "Elvira"
-        image: assets/img/team/martina3.jpg
-      - name: "Román Wang"
-        role: "Sombra / Vincent"
-        image: assets/img/team/roman2.jpg
-      - name: "Elena Jurado"
-        role: "Delfos"
-        image: assets/img/team/elena3.jpg
-      - name: "Lucía Mos"
-        role: "Púa (Beca)"
-        image: assets/img/team/lucia4.jpg
-      - name: "Rebeca Liviano"
-        role: "Ánima / Blaylock"
-        image: assets/img/team/rebeca3.jpg
-      - name: "Álex Martínez"
-        role: "Juglar / Castro"
-        image: assets/img/team/alex2.jpg
 
   contact:
     title: "Contáctanos"
