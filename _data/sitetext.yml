@@ -13,9 +13,9 @@
 es: &DEFAULT_ES
   header:
     title: "<img src='assets/img/titulosirena.png' style='width: 100%;'>" #La sirena en la niebla
-    text: ¡Última oportunidad!<br />20 de junio
-    button: COMPRAR ENTRADAS
-    buttonlink: "https://www.atrapalo.com/entradas/la-sirena-en-la-niebla_e4921146/"
+    textx: ¡Última oportunidad!<br />20 de junio
+    buttonx: COMPRAR ENTRADAS
+    buttonlinkx: "https://www.atrapalo.com/entradas/la-sirena-en-la-niebla_e4921146/"
 
   servicesx:
     title: "Servicios"

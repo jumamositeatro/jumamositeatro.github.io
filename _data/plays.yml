@@ -1,0 +1,98 @@
+sirena:
+  active: true 
+  title: La sirena en la niebla
+  preview:
+    title: "Jumamosi teatro: La sirena en la niebla"
+    #description: ""
+    image: https://jumamositeatro.github.io/assets/img/sirenasmall.jpg
+    #url: ""
+
+  header:
+    title: "<img src='assets/img/titulosirena.png' style='width: 100%;' alt='La sirena en la niebla'>" #La sirena en la niebla
+    #text: ¡Última oportunidad!<br />20 de junio
+    #button:
+      #text: COMPRAR ENTRADAS
+      #link: "https://www.atrapalo.com/entradas/la-sirena-en-la-niebla_e4921146/"
+
+  gallery:
+    images:
+      - path: assets/img/gallery/2025/canto.jpg
+      - path: assets/img/gallery/2025/boquete.jpg
+      - path: assets/img/gallery/2025/fantasma.jpg
+      - path: assets/img/gallery/2025/poeta.jpg
+      - path: assets/img/gallery/2025/foco.jpg
+      - path: assets/img/gallery/2025/canto0.jpg
+      - path: assets/img/gallery/2025/pua.jpg
+      - path: assets/img/gallery/2025/pasado.jpg
+      - path: assets/img/gallery/2025/magia.jpg
+      - path: assets/img/gallery/2025/vuelta.jpg
+      - path: assets/img/gallery/2025/sonidos.jpg
+      - path: assets/img/gallery/2025/niebla.jpg
+      - path: assets/img/gallery/2025/pistola.jpg
+    
+  aboutcard:
+    imageurl: assets/img/sirenacartel.png
+    text: |
+      **Fer**, un famoso cantante de rock que está pasando un momento de crisis existencial, reúne en un faro una comunidad de gente peculiar: **soñadora, creativa y excepcional**, huyendo del gris vacío de lo mundano y el sentido común.
+
+      Fer se encontrará en un conflicto interno ante la llegada de **Elvira**, su manager que siempre lo aleja de sus ideas más extravagantes, y la aparición en el faro de una **sirena de fantasía** obsesionada por el mar, en la que encontrará el amor. Mientras Fer se debate en su dilema, descubrirá la verdadera historia detrás de estos personajes excéntricos que forman la comunidad.
+
+      ---
+
+      Duración: 90 minutos aprox.
+
+      Edad recomendada: 16+
+      
+
+  comments:
+    ratings:
+      - stars: 5
+        source: Ignacio (Atrápalo)
+        comment: A través de una serie de personajes excéntricos se tratan temas muy profundos (amor, huir del pasado, ser otro, violencia, salud mental, etc.). Llevan al público a través de un viaje emocional por unos vaivenes donde uno se plantea "¿Qué haría yo? Ó ¿Qué hubiera hecho yo?", pero todo en un tono que alterna el drama, la comedia y el absurdo de las sociedades occidentales.
+      - stars: 5
+        source: Anónimo (Atrápalo)
+        comment: Fui a ver esta obra con grandes expectativas, pero consiguieron superarlas. Los actores derrochan pasiones por sus papeles. Es realmente fácil sentir de cerca la obra. Volveré sin ninguna duda y se la recomiendo a cualquiera que quiera disfrutar del teatro.
+      - stars: 5
+        source: Anónimo (Atrápalo)
+        comment: Cada día me gusta más el teatro de barrio, es un teatro más de verdad, un teatro donde los actores parece que se toman más en serio lo que hacen que los profesionales de postín. "La sirena en la niebla" es una obra muy sugerente que hace pensar a la vez que es divertida; durante hora y media no me aburrí ni un segundo.
+    links:
+      - text: Más opiniones en Atrápalo
+        url: https://www.atrapalo.com/entradas/la-sirena-en-la-niebla_e4921146/
+
+  team:
+    title: Elenco
+    section: equipo
+    people:
+      - name: David Arroyo
+        role: Fer (Ulises)
+        image: assets/img/team/david2.jpg
+      - name: Chelo Fernández
+        role: Sirena
+        image: assets/img/team/chelo2.jpg
+      - name: Martina Bécares
+        role: Elvira
+        image: assets/img/team/martina3.jpg
+      - name: Román Wang
+        role: Sombra / Vincent
+        image: assets/img/team/roman2.jpg
+      - name: Elena Jurado
+        role: Delfos
+        image: assets/img/team/elena3.jpg
+      - name: Lucía Mos
+        role: Púa (Beca)
+        image: assets/img/team/lucia4.jpg
+      - name: Rebeca Liviano
+        role: Ánima / Blaylock
+        image: assets/img/team/rebeca3.jpg
+      - name: Álex Martínez
+        role: Juglar / Castro
+        image: assets/img/team/alex2.jpg
+
+  teamtec:
+    title: Equipo técnico
+    section: equipo2
+    people:
+      - name: Andrés Viedma
+        role: Dirección / guión
+        image: assets/img/team/andres.jpg
+

@@ -1,0 +1,15 @@
+---
+layout: default
+---
+{% assign play = site.data.plays[page.playId] %}
+
+{% include navheader.html header=play.header %}
+
+{% include gallery.html gallery=play.gallery %}
+{% include playcard.html card=play.aboutcard %}
+{% include ratings.html ratings=play.comments %}
+{% include teamsection.html team=play.team %}
+{% include teamsection.html team=play.teamtec %}
+
+
+{% include contact.html %}

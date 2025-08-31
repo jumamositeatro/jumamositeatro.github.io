@@ -41,3 +41,25 @@ $contact-image: "{{ site.data.style.contact-image }}";
 @import "layout/team.scss";
 @import "layout/contact.scss";
 @import "layout/footer.scss";
+
+
+// **** Custom
+
+textarea.form-control {
+  height: calc(5em + .75rem + 2px);
+  transition: height 0.5s;
+
+  &:focus {
+    height: calc(15em + .75rem + 2px);
+  }
+}
+
+body.sirena {
+  background-image: url("../img/fondomar.jpg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+
+  background-color: $gray-900;
+  color: white;
+}

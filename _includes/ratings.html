@@ -1,10 +1,10 @@
 <!-- Ratings -->
  
-{% if site.data.ratings.ratings %}
+{% if include.ratings.ratings %}
 <section class="page-section" id="ratings">
     <div class="container">
       <div class="row text-center">
-        {% for rating in site.data.ratings.ratings %}
+        {% for rating in include.ratings.ratings %}
         <div class="col-md-4">
               <h4 class="service-heading">{{ rating.source | markdownify }}</h4>
               <p class="stars">
@@ -14,6 +14,16 @@
               </p>
               <div class="text-muted">{{ rating.comment | markdownify }}</div>
             </div>
+        {% endfor %}
+      </div>
+
+      <div class="row text-center">
+        {% for link in include.ratings.links %}
+        <div class="col-md-12">
+          <p>
+            <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="{{ site.data.sitetext[site.locale].header.buttonlink }}">{{ link.text }}</a>
+          </p>
+        </div>
         {% endfor %}
       </div>
     </div>
