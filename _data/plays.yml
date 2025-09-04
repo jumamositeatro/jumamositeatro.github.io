@@ -4,11 +4,11 @@ sirena:
   preview:
     title: "Jumamosi teatro: La sirena en la niebla"
     #description: ""
-    image: https://jumamositeatro.github.io/assets/img/sirenasmall.jpg
+    image: https://jumamositeatro.github.io/assets/img/sirena/sirenasmall.jpg
     #url: ""
 
   header:
-    title: "<img src='assets/img/titulosirena.png' style='width: 100%;' alt='La sirena en la niebla'>" #La sirena en la niebla
+    title: "<img src='assets/img/sirena/titulosirena.png' style='width: 100%;' alt='La sirena en la niebla'>" #La sirena en la niebla
     #text: ¡Última oportunidad!<br />20 de junio
     #button:
       #text: COMPRAR ENTRADAS
@@ -16,22 +16,22 @@ sirena:
 
   gallery:
     images:
-      - path: assets/img/gallery/2025/canto.jpg
-      - path: assets/img/gallery/2025/boquete.jpg
-      - path: assets/img/gallery/2025/fantasma.jpg
-      - path: assets/img/gallery/2025/poeta.jpg
-      - path: assets/img/gallery/2025/foco.jpg
-      - path: assets/img/gallery/2025/canto0.jpg
-      - path: assets/img/gallery/2025/pua.jpg
-      - path: assets/img/gallery/2025/pasado.jpg
-      - path: assets/img/gallery/2025/magia.jpg
-      - path: assets/img/gallery/2025/vuelta.jpg
-      - path: assets/img/gallery/2025/sonidos.jpg
-      - path: assets/img/gallery/2025/niebla.jpg
-      - path: assets/img/gallery/2025/pistola.jpg
+      - path: sirena/gallery/canto.jpg
+      - path: sirena/gallery/boquete.jpg
+      - path: sirena/gallery/fantasma.jpg
+      - path: sirena/gallery/poeta.jpg
+      - path: sirena/gallery/foco.jpg
+      - path: sirena/gallery/canto0.jpg
+      - path: sirena/gallery/pua.jpg
+      - path: sirena/gallery/pasado.jpg
+      - path: sirena/gallery/magia.jpg
+      - path: sirena/gallery/vuelta.jpg
+      - path: sirena/gallery/sonidos.jpg
+      - path: sirena/gallery/niebla.jpg
+      - path: sirena/gallery/pistola.jpg
     
   aboutcard:
-    imageurl: assets/img/sirenacartel.png
+    imageurl: sirena/sirenacartel.png
     text: |
       **Fer**, un famoso cantante de rock que está pasando un momento de crisis existencial, reúne en un faro una comunidad de gente peculiar: **soñadora, creativa y excepcional**, huyendo del gris vacío de lo mundano y el sentido común.
 
@@ -57,7 +57,7 @@ sirena:
         comment: Cada día me gusta más el teatro de barrio, es un teatro más de verdad, un teatro donde los actores parece que se toman más en serio lo que hacen que los profesionales de postín. "La sirena en la niebla" es una obra muy sugerente que hace pensar a la vez que es divertida; durante hora y media no me aburrí ni un segundo.
     links:
       - text: Más opiniones en Atrápalo
-        url: https://www.atrapalo.com/entradas/la-sirena-en-la-niebla_e4921146/
+        url: https://www.atrapalo.com/entradas/la-sirena-en-la-niebla_e4921146/#reviews
 
   team:
     title: Elenco
@@ -65,28 +65,28 @@ sirena:
     people:
       - name: David Arroyo
         role: Fer (Ulises)
-        image: assets/img/team/david2.jpg
+        image: sirena/team/david2.jpg
       - name: Chelo Fernández
         role: Sirena
-        image: assets/img/team/chelo2.jpg
+        image: sirena/team/chelo2.jpg
       - name: Martina Bécares
         role: Elvira
-        image: assets/img/team/martina3.jpg
+        image: sirena/team/martina3.jpg
       - name: Román Wang
         role: Sombra / Vincent
-        image: assets/img/team/roman2.jpg
+        image: sirena/team/roman2.jpg
       - name: Elena Jurado
         role: Delfos
-        image: assets/img/team/elena3.jpg
+        image: sirena/team/elena3.jpg
       - name: Lucía Mos
         role: Púa (Beca)
-        image: assets/img/team/lucia4.jpg
+        image: sirena/team/lucia4.jpg
       - name: Rebeca Liviano
         role: Ánima / Blaylock
-        image: assets/img/team/rebeca3.jpg
+        image: sirena/team/rebeca3.jpg
       - name: Álex Martínez
         role: Juglar / Castro
-        image: assets/img/team/alex2.jpg
+        image: sirena/team/alex2.jpg
 
   teamtec:
     title: Equipo técnico
@@ -94,5 +94,4 @@ sirena:
     people:
       - name: Andrés Viedma
         role: Dirección / guión
-        image: assets/img/team/andres.jpg
-
+        image: sirena/team/andres.jpg

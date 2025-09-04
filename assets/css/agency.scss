@@ -55,11 +55,20 @@ textarea.form-control {
 }
 
 body.sirena {
-  background-image: url("../img/fondomar.jpg");
+  background-image: url("../img/sirena/fondomar.jpg");
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: auto 100%;
 
   background-color: $gray-900;
   color: white;
+
+  header.masthead {
+    color: white;
+    background-image: url("../img/sirena/header.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+  }
 }

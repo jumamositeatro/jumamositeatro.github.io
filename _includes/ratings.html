@@ -20,7 +20,7 @@
         {% for link in include.ratings.links %}
         <div class="col-md-12">
           <p>
-            <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="{{ site.data.sitetext[site.locale].header.buttonlink }}">{{ link.text }}</a>
+            <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="{{ link.url }}">{{ link.text }}</a>
           </p>
         </div>
         {% endfor %}
