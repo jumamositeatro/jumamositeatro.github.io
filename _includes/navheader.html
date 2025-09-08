@@ -10,7 +10,7 @@
       </a>
 
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        Menu
+        Menú
         <i class="fas fa-bars"></i>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -18,7 +18,7 @@
         {% for link in site.data.navigation.nav %}
         <li class="nav-item">
           {%- if link.url -%}
-            <a class="nav-link js-scroll-trigger" href="{{ link.url }}">{{ link.title }}</a>
+            <a class="nav-link js-scroll-trigger {% if page.url == link.url %}currentpage{% endif %}" href="{{ link.url }}"> {{ link.title }}</a>
           {%- elsif link.section -%}
             <a class="nav-link js-scroll-trigger" href="#{{ link.section }}">{{ link.title }}</a>
           {%- else -%}
@@ -34,6 +34,7 @@
   
   <!-- Header -->
   <header class="masthead">
+    <div class="posthead">
     <div class="container">
       <div class="intro-text">
 	  {%- if include.header.title -%}
@@ -46,6 +47,7 @@
         <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="{{ include.header.button.link }}">{{ include.header.button.text }}</a>
 	  {%- endif -%}
       </div>
+    </div>
     </div>
   </header>
   <!-- End Header -->

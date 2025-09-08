@@ -72,3 +72,32 @@ body.sirena {
     background-size: cover;
   }
 }
+
+body.jumamosi {
+  .navbar-brand * {
+    display: none;
+  }
+
+  header.masthead {
+    color: white;
+    background-image: url("../img/jumamosi/gallery/escenariovacio.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    .posthead {
+      backdrop-filter: blur(5px) brightness(40%);
+    }
+  }
+
+  @media (min-width: 768px) {
+    header.masthead {
+      // background-color: black;
+
+      .intro-text {
+        padding-top: 60px;
+        padding-bottom: 50px;
+      }
+    }
+  }
+}

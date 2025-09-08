@@ -1,5 +1,4 @@
 ---
-layout: play
-playId: sirena
-class: sirena
+layout: jumamosi
+class: jumamosi
 ---

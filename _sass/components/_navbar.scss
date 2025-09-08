@@ -34,6 +34,10 @@
         &:hover {
           color: $primary;
         }
+
+        &.currentpage {
+          font-weight: bold;
+        }
       }
     }
   }

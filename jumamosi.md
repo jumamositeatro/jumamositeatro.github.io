@@ -1,0 +1,4 @@
+---
+layout: jumamosi
+class: jumamosi
+---

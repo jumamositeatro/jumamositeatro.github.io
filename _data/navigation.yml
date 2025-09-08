@@ -1,10 +1,11 @@
-navX:
-  - title: "Inicio"
-    url: "index.html"
+nav:
+  - title: "Jumamosi"
+    url: "/"
+    #url: "/jumamosi.html"
   - title: "La sirena en la niebla"
-    url: "sirena.html"
-  - title: "Nosotros"
-    url: "nosotros.html"
+    url: "/sirena.html"
+  #- title: "Nosotros"
+    #url: "nosotros.html"
 
 navXXX:
   - title: "Servicios"
