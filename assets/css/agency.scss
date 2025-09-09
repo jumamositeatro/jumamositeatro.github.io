@@ -77,6 +77,13 @@ body.jumamosi {
   .navbar-brand * {
     display: none;
   }
+  .navbar-brand * {
+    display: none;
+  }
+  .navbar-shrink .navbar-brand * {
+    display: block;
+  }
+
 
   header.masthead {
     color: white;

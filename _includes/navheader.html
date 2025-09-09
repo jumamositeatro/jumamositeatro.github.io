@@ -16,11 +16,21 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav text-uppercase ml-auto">
         {% for link in site.data.navigation.nav %}
-        <li class="nav-item">
+        <li class="nav-item {% if link.dropdown %}dropdown{% endif %}">
           {%- if link.url -%}
-            <a class="nav-link js-scroll-trigger {% if page.url == link.url %}currentpage{% endif %}" href="{{ link.url }}"> {{ link.title }}</a>
+            <a class="nav-link js-scroll-trigger {% if page.url == link.url %}active{% endif %}" href="{{ link.url }}"> {{ link.title }}</a>
           {%- elsif link.section -%}
             <a class="nav-link js-scroll-trigger" href="#{{ link.section }}">{{ link.title }}</a>
+          {%- elsif link.dropdown -%}
+            {% comment %}https://getbootstrap.com/docs/5.3/components/navbar/{% endcomment %}
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              {{ link.title }}
+            </a>
+            <ul class="dropdown-menu">
+              {% for sublink in link.dropdown %}
+                <li><a class="dropdown-item" href="{{ sublink.url }}">{{ sublink.title }}</a></li>
+              {% endfor %}
+            </ul>
           {%- else -%}
             <a class="nav-link js-scroll-trigger" href="#">{{ link.title }}</a>
           {%- endif -%}

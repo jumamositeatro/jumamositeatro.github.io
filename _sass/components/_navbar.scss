@@ -1,6 +1,11 @@
 // Styling for the navbar
 #mainNav {
   background-color: $gray-900;
+
+  >.container {
+    align-items: flex-start;
+  }
+
   .navbar-toggler {
     font-size: 12px;
     right: 0;
@@ -34,16 +39,15 @@
         &:hover {
           color: $primary;
         }
-
-        &.currentpage {
-          font-weight: bold;
-        }
       }
     }
   }
   &.navbar-shrink {
     img {
       max-height: 50px !important;
+    }
+    >.container {
+      align-items: center;
     }
   }
 }

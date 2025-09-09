@@ -6,21 +6,10 @@ nav:
     url: "/sirena.html"
   #- title: "Nosotros"
     #url: "nosotros.html"
-
-navXXX:
-  - title: "Servicios"
-    section: servicios
-  - title: "Servicios"
-    section: servicios
-  - title: "Portafolio"
-    section: portafolio
-  - title: "Sobre Nosotros"
-    section: nosotros
-  - title: "Cronología"
-    section: cronologia
-  - title: "Equipo"
-    section: equipo
-  - title: "Contáctenos"
-    section: contacto
-  - title: "Fuente de la plantilla"
-    url: https://github.com/raviriley/agency-jekyll-theme/
+navKK:
+  - title: Nuestras obras
+    dropdown:
+      - title: "Jumamosi"
+        url: "/jumamosi.html"
+      - title: "La sirena en la niebla"
+        url: "/sirena.html"
