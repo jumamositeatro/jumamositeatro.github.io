@@ -108,3 +108,14 @@ body.jumamosi {
     }
   }
 }
+
+body.nosotros {
+  @media (min-width: 768px) {
+    header.masthead {
+      .intro-text {
+        padding-top: 60px;
+        padding-bottom: 0;
+      }
+    }
+  }
+} 

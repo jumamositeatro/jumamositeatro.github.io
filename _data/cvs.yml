@@ -1,0 +1,52 @@
+david:
+  name: David Arroyo
+  image: sirena/team/david.jpg
+  description: |
+    **David Arroyo** lleva más de diez años en el mundo de la interpretación, aunque montó sus primeras obras en su época escolar.
+
+    Se inició en Cataluña con *Chorus Line*, y con Ramón Molins en *El llibre de Mormó*. En Madrid lleva varios años formándose en Acting Impact Theatre,
+    escuela de teatro en inglés con Harriet Thompson y Schuyler Hedstrom, donde ha participado en adaptaciones de obras como
+    *Chicago*, *Les Miserables*, *Rent*, *Grease* o *Perfectos desconocidos*, entre otras.
+    Además, ha participado en talleres de creación de personaje a través del cuerpo con Nicolás Perez Costa, y estudia interpretación
+    desde varias metodologías con la profesora Gloria Padura.
+
+    Desde 2019 ha participado con la compañía Jumamosi como en montajes de adaptaciones de *El Médico* (interpretación),
+    *The Book of Mormon* (dirección y producción), *Perfectos desconocidos* (dirección e interpretación) y *La sirena en la niebla* (interpretación).
+
+andres:
+  name: Andrés Viedma
+  image: sirena/team/andres.jpg
+  description: |
+    Nacido en Barcelona en 1973, es un actor, dramaturgo y director teatral.
+
+    Como escritor, ha obtenido formación en la escuela
+    Fuentetaja (2020-2022), realizando talleres de escritura
+    creativa y de novela con profesores como Víctor García
+    Antón, Clara Docampo y Gloria Fernández Rozas.
+
+    Como actor, se ha formado en interpretación tanto
+    teatral como ante cámara, además de canto y baile en
+    Acting escuela de artes escénicas (2022-2025),
+    representando obras como *9 to 5* y *El rey de bodas*. Se ha
+    formado también en interpretación teatral en inglés en
+    Acting Impact (2014-2025), participando en obras como
+    *Arsénico por compasión*, *La cena de los idiotas*, *Chicago* o
+    *Moulin Rouge*. En la escuela Expresando, realizó dos
+    cursos intensivos (2017-2018), representando *Los
+    Miserables* y *Rent*.
+
+    Dentro de la compañía Jumamosi Teatro, ha dirigido *La sirena en la niebla*, y ha
+    participado en la adaptación del guión y en la
+    interpretación en obras como *The book of Mormon* y
+    *Perfectos desconocidos*. También ha participado en la
+    adaptación del guión de *El médico* para una producción
+    independiente, y para Acting Impact en la escritura de
+    *The Lonely Hearts Club* y *Rapunzel, damsel in distress*
+    (formando parte de *The Untold Tales*).
+
+elena:
+  name: Elena Jurado
+  image: sirena/team/elena.jpg
+  description: |
+    TODO
+
