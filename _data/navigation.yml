@@ -5,7 +5,7 @@ nav:
   - title: "La sirena en la niebla"
     url: "/sirena.html"
   #- title: "Nosotros"
-    #url: "nosotros.html"
+    #url: "/nosotros.html"
 navKK:
   - title: Nuestras obras
     dropdown:
