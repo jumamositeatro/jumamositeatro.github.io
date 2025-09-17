@@ -110,6 +110,10 @@ body.jumamosi {
 }
 
 body.nosotros {
+  .intro-text {
+    padding-bottom: 0;
+  }
+
   @media (min-width: 768px) {
     header.masthead {
       .intro-text {
