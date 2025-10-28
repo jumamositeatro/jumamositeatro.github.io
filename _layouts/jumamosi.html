@@ -111,23 +111,25 @@ Compañía teatral amateur, ¡permanece atento que tenemos nuevas obras a la vue
       {% assign playId=playEntry[0] %}
       {% assign play=playEntry[1] %}
 
-      <div class="col-md-4 col-sm-6 portfolio-item">
-        <a class="portfolio-link" href="{{ playId }}.html">
-          <div class="portfolio-hover">
-            <div class="portfolio-hover-content">
-              <i class="fas fa-plus fa-3x"></i>
+      {% if play.active != false %}
+        <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" href="{{ playId }}.html">
+            <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                <i class="fas fa-plus fa-3x"></i>
+                </div>
             </div>
-          </div>
-          <img class="img-fluid" src="assets/img/{{ play.aboutcard.imageurl }}" alt="">
-        </a>
-        <div class="portfolio-caption" style="background-color: inherit;">
-          <h4>{{ play.title }}</h4>
-{% comment %}
-          <p class="text-muted">{{ play.aboutcard.text | split: '
-' | first | markdownify }}</p>
-{% endcomment %}
+            <img class="img-fluid" src="assets/img/{{ play.aboutcard.imageurl }}" alt="">
+            </a>
+            <div class="portfolio-caption" style="background-color: inherit;">
+            <h4>{{ play.title }}</h4>
+    {% comment %}
+            <p class="text-muted">{{ play.aboutcard.text | split: '
+    ' | first | markdownify }}</p>
+    {% endcomment %}
+            </div>
         </div>
-      </div>
+      {% endif %}
 	{% endfor %}
     </div>
   </div>
