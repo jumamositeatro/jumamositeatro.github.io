@@ -95,3 +95,87 @@ sirena:
       - name: Andrés Viedma
         role: Dirección / guión
         image: sirena/team/andres.jpg
+
+desconectados:
+  active: true 
+  title: Des-conectados
+  preview:
+    title: "Jumamosi teatro: Des-conectados"
+    #description: ""
+    #image: 
+    #url: ""
+
+  header:
+    title: Des-conectados #"<img src='XXXXXXXXXXXX' style='width: 100%;' alt='Des-conectados'>" #Des-conectados
+      #text: 
+    #button:
+      #text: 
+      #link: 
+
+  gallery:
+    images:
+      - path: desconectados/gallery/luna6.jpg
+      - path: desconectados/gallery/fototope5.jpg
+      - path: desconectados/gallery/selfie8.jpg
+      - path: desconectados/gallery/angry7.jpg
+      - path: desconectados/gallery/cenando9.jpg
+      - path: desconectados/gallery/fumando3.jpg
+      - path: desconectados/gallery/mirafoto4.jpg
+      - path: desconectados/gallery/principio10.jpg
+      - path: desconectados/gallery/miradas11.jpg
+      - path: desconectados/gallery/hosts12.jpg
+      - path: desconectados/gallery/ensayo1.jpg
+      - path: desconectados/gallery/tristes2.jpg
+    
+  aboutcard:
+    imageurl: desconectados/cartel.jpg 
+    text: |
+      Una cena casual entre un grupo de viejos amigos cambiará sus vidas cuando Lucía propone un juego inocente, compartir durante la cena todos los secretos que sus teléfonos esconden. Lo que empieza como mera curiosidad pronto desvela mentiras, secretos y pequeñas traiciones, poniendo a prueba la confianza, la amistad y los lazos más íntimos. Cada mensaje, cada llamada y cada notificación se convierten en una revelación que nadie esperaba.
+
+      Entre risas, tensión y momentos de incomodidad, los personajes se enfrentan a la fragilidad de sus relaciones y a la realidad de que, a veces, conocemos menos a quienes tenemos más cerca. Humor y drama a partes iguales, donde cada decisión puede cambiarlo todo, y donde los límites entre lo privado y lo compartido se desdibujan de manera sorprendente.
+
+      ¿Dejarías que tus amigos revisaran tu teléfono? 
+
+      ---
+
+      Duración: 60 minutos aprox.
+
+      Edad recomendada: 16+
+
+  team:
+    title: Elenco
+    section: equipo
+    people:
+      - name: Martina Becares
+        role: Lucía
+        image: desconectados/team/martina.jpg
+      - name: Román Wang
+        role: Pedro
+        image: desconectados/team/roman.jpg
+      - name: Andrés Viedma
+        role: Toni
+        image: desconectados/team/andres.jpg
+      - name: Chelo Fernández
+        role: Eva
+        image: desconectados/team/chelo.jpg
+      - name: Elena Jurado
+        role: Ana
+        image: desconectados/team/elena.jpg
+      - name: David Arroyo
+        role: Marcos
+        image: desconectados/team/david.jpg
+      - name: Rebeca Liviano
+        role: Sofía
+        image: desconectados/team/rebeca.jpg
+
+  teamtec:
+    title: Equipo técnico
+    section: equipo2
+    people:
+      - name: David Arroyo
+        role: Dirección / Guión
+        image: sirena/team/david.jpg
+
+      - name: Andrés Viedma
+        role: Guión
+        image: sirena/team/andres.jpg

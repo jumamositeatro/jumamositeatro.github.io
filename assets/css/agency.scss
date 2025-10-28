@@ -73,6 +73,28 @@ body.sirena {
   }
 }
 
+body.desconectados {
+  background-color: $gray-900;
+  color: white;
+
+  header.masthead {
+    color: white;
+    background-image: url("../img/desconectados/header.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    .posthead {
+      //backdrop-filter: blur(5px) brightness(40%);
+      backdrop-filter: brightness(70%);
+    }
+    p {
+      font-size: 200%;
+      text-shadow: 1px 1px 2px #101010;
+    }
+  }
+}
+
 body.jumamosi {
   .navbar-brand * {
     display: none;

@@ -2,10 +2,16 @@ nav:
   - title: "Jumamosi"
     url: "/"
     #url: "/jumamosi.html"
-  - title: "La sirena en la niebla"
-    url: "/sirena.html"
-  #- title: "Nosotros"
-    #url: "/nosotros.html"
+  - title: Nuestras obras
+    dropdown:
+      - title: "La sirena en la niebla"
+        url: "/sirena.html"
+      - title: "Des-conectados"
+        url: "/desconectados.html"
+  #- title: "La sirena en la niebla"
+    #url: "/sirena.html"
+  - title: "Nosotros"
+    url: "/nosotros.html"
 navKK:
   - title: Nuestras obras
     dropdown:
