@@ -17,13 +17,21 @@
         <ul class="navbar-nav text-uppercase ml-auto">
         {% for link in site.data.navigation.nav %}
         <li class="nav-item {% if link.dropdown %}dropdown{% endif %}">
+          {% assign childLinks = link.dropdown | map: "url" %}
+          {% capture activeClass -%}
+            {%- if (page.url == link.url) or (childLinks contains page.url) %}
+              active {{ link.dropdown | map: "url" }}
+            {%- else -%}
+              {{ link.dropdown | map: "url" }}
+            {%- endif -%}
+          {% endcapture %}
+
           {%- if link.url -%}
-            <a class="nav-link js-scroll-trigger {% if page.url == link.url %}active{% endif %}" href="{{ link.url }}"> {{ link.title }}</a>
+            <a class="nav-link js-scroll-trigger {{ activeClass }}" href="{{ link.url }}"> {{ link.title }}</a>
           {%- elsif link.section -%}
-            <a class="nav-link js-scroll-trigger" href="#{{ link.section }}">{{ link.title }}</a>
+            <a class="nav-link js-scroll-trigger {{ activeClass }}" href="#{{ link.section }}">{{ link.title }}</a>
           {%- elsif link.dropdown -%}
-            {% comment %}https://getbootstrap.com/docs/5.3/components/navbar/{% endcomment %}
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link dropdown-toggle {{ activeClass }}" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
               {{ link.title }}
             </a>
             <ul class="dropdown-menu">
