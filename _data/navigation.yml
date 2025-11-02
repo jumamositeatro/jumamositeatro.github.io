@@ -10,7 +10,7 @@ nav:
         url: "/desconectados.html"
   #- title: "La sirena en la niebla"
     #url: "/sirena.html"
-  - title: "Nosotros"
+  - title: "Quiénes somos"
     url: "/nosotros.html"
 navKK:
   - title: Nuestras obras
