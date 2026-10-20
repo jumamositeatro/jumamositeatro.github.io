@@ -106,7 +106,8 @@ desconectados:
     #url: ""
 
   header:
-    title: Des-conectad@s #"<img src='XXXXXXXXXXXX' style='width: 100%;' alt='Des-conectados'>" #Des-conectados
+    title: "<img src='assets/img/desconectados/titulo.png' style='width: 100%;' alt='Des-conectados'>" #La sirena en la niebla
+    #title: Des-conectad@s #"<img src='XXXXXXXXXXXX' style='width: 100%;' alt='Des-conectados'>" #Des-conectados
     text: Plot Point 15 y 20 de noviembre<br />EscenArte (Majadahonda) 27 noviembre
     #button:
       #text: COMPRAR ENTRADAS
