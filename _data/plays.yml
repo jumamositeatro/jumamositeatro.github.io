@@ -106,14 +106,15 @@ desconectados:
     #url: ""
 
   header:
-    title: Des-conectados #"<img src='XXXXXXXXXXXX' style='width: 100%;' alt='Des-conectados'>" #Des-conectados
-      #text: 
+    title: Des-conectad@s #"<img src='XXXXXXXXXXXX' style='width: 100%;' alt='Des-conectados'>" #Des-conectados
+    text: Plot Point 15 y 20 de noviembre<br />EscenArte (Majadahonda) 27 noviembre
     #button:
-      #text: 
-      #link: 
+      #text: COMPRAR ENTRADAS
+      #link: "https://www.atrapalo.com/entradas/la-sirena-en-la-niebla_e4921146/"
 
   gallery:
     images:
+      - path: desconectados/gallery/residencia.jpg
       - path: desconectados/gallery/luna6.jpg
       - path: desconectados/gallery/fototope5.jpg
       - path: desconectados/gallery/selfie8.jpg
@@ -130,11 +131,13 @@ desconectados:
   aboutcard:
     imageurl: desconectados/cartel.jpg 
     text: |
-      Una cena casual entre un grupo de viejos amigos cambiará sus vidas cuando Lucía propone un juego inocente, compartir durante la cena todos los secretos que sus teléfonos esconden. Lo que empieza como mera curiosidad pronto desvela mentiras, secretos y pequeñas traiciones, poniendo a prueba la confianza, la amistad y los lazos más íntimos. Cada mensaje, cada llamada y cada notificación se convierten en una revelación que nadie esperaba.
+      Siete amigos, siete móviles y demasiados secretos para compartir.
 
-      Entre risas, tensión y momentos de incomodidad, los personajes se enfrentan a la fragilidad de sus relaciones y a la realidad de que, a veces, conocemos menos a quienes tenemos más cerca. Humor y drama a partes iguales, donde cada decisión puede cambiarlo todo, y donde los límites entre lo privado y lo compartido se desdibujan de manera sorprendente.
-
-      ¿Dejarías que tus amigos revisaran tu teléfono? 
+      Una cena entre amigos, unos móviles sobre la mesa y una propuesta que parece inofensiva: compartir cada mensaje, cada llamada y cada secreto que llegue durante la velada. ¿Qué podría salir mal?
+ 
+      En Des-conectad@s, lo que comienza como un juego pronto se convierte en una bomba de relojería. Entre risas, sospechas y revelaciones inesperadas, las certezas se tambalean y las relaciones empiezan a resquebrajarse. Porque todos tenemos algo que ocultar y, a veces, la distancia entre la verdad y la mentira cabe en una pantalla.
+ 
+      Una dramedia sobre la amistad, la intimidad y los secretos que quizá nunca deberían salir a la luz.
 
       ---
 
@@ -149,9 +152,9 @@ desconectados:
       - name: Martina Becares
         role: Lucía
         image: desconectados/team/martina.jpg
-      - name: Román Wang
+      - name: Álex Martínez
         role: Pedro
-        image: desconectados/team/roman.jpg
+        image: desconectados/team/alex2.jpg
       - name: Andrés Viedma
         role: Toni
         image: desconectados/team/andres.jpg
@@ -179,3 +182,7 @@ desconectados:
       - name: Andrés Viedma
         role: Guión
         image: sirena/team/andres.jpg
+
+      - name: Román Wang
+        role: Técnico
+        image: sirena/team/roman2.jpg

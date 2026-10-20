@@ -1,4 +1,5 @@
 ---
-layout: jumamosi
-class: jumamosi
+layout: play
+playId: desconectados
+class: desconectados
 ---

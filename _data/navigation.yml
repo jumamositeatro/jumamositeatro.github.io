@@ -1,13 +1,14 @@
 nav:
   - title: "Jumamosi"
-    url: "/"
-    #url: "/jumamosi.html"
+    #url: "/"
+    url: "/jumamosi.html"
   - title: Nuestras obras
     dropdown:
       - title: "La sirena en la niebla"
         url: "/sirena.html"
       - title: "Des-conectados"
-        url: "/desconectados.html"
+        #url: "/desconectados.html"
+        url: "/"
   #- title: "La sirena en la niebla"
     #url: "/sirena.html"
   - title: "Quiénes somos"
