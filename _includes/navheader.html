@@ -64,6 +64,12 @@
 	  {%- if include.header.button -%}
         <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="{{ include.header.button.link }}">{{ include.header.button.text }}</a>
 	  {%- endif -%}
+	  {%- if include.header.text2 -%}
+        <div class="intro-heading text-uppercase intro-heading-2">{{ include.header.text2 | markdownify }}</div>
+	  {%- endif -%}
+	  {%- if include.header.button2 -%}
+        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="{{ include.header.button2.link }}">{{ include.header.button2.text }}</a>
+	  {%- endif -%}
       </div>
     </div>
     </div>

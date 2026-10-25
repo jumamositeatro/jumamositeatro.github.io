@@ -108,10 +108,14 @@ desconectados:
   header:
     title: "<img src='assets/img/desconectados/titulo.png' style='width: 100%;' alt='Des-conectados'>" #La sirena en la niebla
     #title: Des-conectad@s #"<img src='XXXXXXXXXXXX' style='width: 100%;' alt='Des-conectados'>" #Des-conectados
-    text: Plot Point 15 y 20 de noviembre<br />EscenArte (Majadahonda) 27 noviembre
+    text: Plot Point 15 y 20 de noviembre
     button:
       text: COMPRAR ENTRADAS
       link: "https://www.plotpoint.es/obra-teatro/des-conectads/"
+    text2: EscenArte (Majadahonda) 27 noviembre
+    button2:
+      text: COMPRAR ENTRADAS
+      link: "https://escenarte.es/desconectads/"
 
   gallery:
     images:
