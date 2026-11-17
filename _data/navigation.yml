@@ -1,8 +1,14 @@
 nav:
-  - title: "Jumamosi"
+- title: "Jumamosi"
     #url: "/"
     url: "/jumamosi.html"
-  - title: Nuestras obras
+- title: "Quiénes somos"
+      dropdown:
+      - title: "La compañía"
+      url: "/nosotros.html"
+      - title: "Actrices y actores"
+      url: "/actrices.html"
+- title: Nuestras obras
     dropdown:
       - title: "La sirena en la niebla"
         url: "/sirena.html"
@@ -11,13 +17,7 @@ nav:
         url: "/"
   #- title: "La sirena en la niebla"
     #url: "/sirena.html"
-  - title: "Quiénes somos"
-      dropdown:
-      - title: "La compañía"
-      url: "/nosotros.html"
-      - title: "Actrices y actores"
-      url: "/actrices.html"
-              
+                
 navKK:
   - title: Nuestras obras
     dropdown:
