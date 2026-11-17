@@ -191,3 +191,18 @@ desconectados:
       - name: Román Wang
         role: Técnico
         image: sirena/team/roman2.jpg
+
+  comments:
+    ratings:
+      - stars: 5
+        source: Borja (Atrápalo)
+        comment: Una obra obligatoria, muy entretenida y con un argumento muy elaborado. Muuuuy recomendable.
+      - stars: 5
+        source: Gloria (Atrápalo)
+        comment: Es estupenda en todos los sentidos. No os la podéis perder.
+      - stars: 5
+        source: David (Atrápalo)
+        comment: Una muy buena puesta en escena con un elenco diverso y con talento. El uso del espacio es inteligente y bien adaptado, merece mucho la pena para pasar un rato entretenido en pareja o con amigos.
+    links:
+      - text: Más opiniones en Atrápalo
+        url: https://www.atrapalo.com/entradas/desconectad-s_e4956233/#reviews
