@@ -1,6 +1,7 @@
 david:
   name: David Arroyo
   image: nosotros/david.jpg
+  type: socio
   description: |
     **David Arroyo** lleva más de diez años en el mundo de la interpretación, aunque montó sus primeras obras en su época escolar.
 
@@ -18,6 +19,7 @@ david:
 andres:
   name: Andrés Viedma
   image: nosotros/andres.jpg
+  type: socio
   description: |
     **Andrés** ha participado en el mundo del teatro como actor, dramaturgo y director.
 
@@ -49,6 +51,7 @@ andres:
 elena:
   name: Elena Jurado
   image: nosotros/elena.jpg
+  type: socio
   description: |    
     **Elena** ha crecido vinculada al mundo del teatro desde su adolescencia, comenzando con
     pequeños grupos de barrio y de la escuela y más adelante en otras escuelas, como AtUAM
@@ -74,3 +77,9 @@ elena:
 
     Desde niña, escribe teatro, relatos y poesía y perteneció al grupo de escritura creativa formado por mujeres del Centro de
     Igualdad María Zambrano, “Tinta Violeta”, que publicó un libro recopilatorio en 2025.
+
+#xxxx:
+#  name: Xxxxxx
+#  image: nosotros/xxx.jpg
+#  description: |
+#    blablabla

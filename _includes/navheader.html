@@ -58,6 +58,9 @@
 	  {%- if include.header.title -%}
         <div class="intro-lead-in">{{ include.header.title | markdownify }}</div>
 	  {%- endif -%}
+	  {%- if page.title -%}
+        <div class="intro-lead-in">{{ page.title | markdownify }}</div>
+	  {%- endif -%}
 	  {%- if include.header.text -%}
         <div class="intro-heading text-uppercase">{{ include.header.text | markdownify }}</div>
 	  {%- endif -%}

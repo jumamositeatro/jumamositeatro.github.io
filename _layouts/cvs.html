@@ -2,7 +2,7 @@
 layout: default
 
 header:
-  title: QUIÉNES SOMOS
+  #title: "{{ page.title }}"
   #title: "<img src='assets/img/jumamosibig.png' style='width: 80%;' alt='Jumamosi teatro'>"
   #text: ¡Última oportunidad!<br />20 de junio
   #button:
@@ -29,6 +29,7 @@ header:
 
 <div id="personcontainer">
   {% for personEntry in site.data.cvs %}
+  {% if personEntry[1].type == page.type || page.type == "" %}
   <section class="page-section"  id="cv-{{ personId }}" style="background-color: black;">
       {% assign personId=personEntry[0] %}
       {% assign person=personEntry[1] %}
@@ -54,6 +55,7 @@ header:
 	  </div>
 	</div>
   </section>
+  {% endif %}
   {% endfor %}
 </div>
 <script type="text/javascript">
