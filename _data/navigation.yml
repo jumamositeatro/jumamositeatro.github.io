@@ -12,7 +12,12 @@ nav:
   #- title: "La sirena en la niebla"
     #url: "/sirena.html"
   - title: "Quiénes somos"
-    url: "/nosotros.html"
+      dropdown:
+      - title: "La compañía"
+      url: "/nosotros.html"
+      - title: "Actrices y actores"
+      url: "/actrices.html"
+              
 navKK:
   - title: Nuestras obras
     dropdown:
