@@ -40,10 +40,3 @@ markdown: kramdown
 
 plugins:
   - jekyll-sitemap
-  - jekyll-copyr
-
-jekyll-copyr:
-  enabled: true # Optional, defaults to true
-  tasks:
-    - from: "./_site/sitemap.xml"
-      to: "./_site/sitemap-web.xml"
