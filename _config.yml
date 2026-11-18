@@ -40,3 +40,9 @@ markdown: kramdown
 
 plugins:
   - jekyll-sitemap
+
+defaults:
+  - scope:
+      path: "google7c1f30171aaaeee1.html"
+    values:
+      sitemap: false
