@@ -40,3 +40,6 @@ markdown: kramdown
 
 plugins:
   - jekyll-sitemap
+
+sitemap:
+  filename: sitemap-web.xml
