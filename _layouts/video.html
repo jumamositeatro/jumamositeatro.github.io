@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="es">
+{% assign link = site.data.plays[page.playId].video %}
+<head>
+  <meta charset="utf-8">
+  <title>Vídeo de la obra</title>
+  <meta http-equiv="refresh" content="0; url={{ link }}">
+  <script>
+    window.location.replace("{{ link }}");
+  </script>
+</head>
+<body>
+  <p>Abriendo vídeo… Si no redirige automáticamente, <a href="{{ link }}">pulsa aquí</a>.</p>
+</body>
+</html>
