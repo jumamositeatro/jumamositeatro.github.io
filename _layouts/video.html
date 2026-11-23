@@ -3,7 +3,7 @@
 {% assign link = site.data.plays[page.playId].video %}
 <head>
   <meta charset="utf-8">
-  <title>Vídeo de la obra</title>
+  <title>Vídeo de {{ site.data.plays[page.playId].title }}</title>
   <meta http-equiv="refresh" content="0; url={{ link }}">
   <script>
     window.location.replace("{{ link }}");
