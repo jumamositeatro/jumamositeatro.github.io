@@ -1,10 +1,11 @@
 sirena:
   active: true 
   title: La sirena en la niebla
-  preview:
-    title: "Jumamosi teatro: La sirena en la niebla"
+  #preview:
+    #active: false
+    #title: "Jumamosi teatro: La sirena en la niebla"
     #description: ""
-    image: https://jumamositeatro.github.io/assets/img/sirena/sirenasmall.jpg
+    #image: https://jumamositeatro.github.io/assets/img/sirena/sirenasmall.jpg
     #url: ""
 
   header:
@@ -99,8 +100,9 @@ sirena:
 desconectados:
   active: true 
   title: Des-conectados
-  preview:
-    title: "Jumamosi teatro: Des-conectados"
+  #preview:
+    #title: "Jumamosi teatro: Des-conectados"
+    #active: false
     #description: ""
     #image: 
     #url: ""
@@ -214,9 +216,10 @@ deshabitada:
   title: Des-habitada
   preview:
     title: "Jumamosi teatro: Des-habitada"
-    #description: ""
-    #image: 
-    #url: ""
+    active: true
+    description: "3, 18, 23, 30 diciembre"
+    image: https://jumamositeatro.github.io/assets/img/deshabitada/cartel.jpg
+    url: "https://jumamositeatro.github.io/deshabitada.html"
 
   header:
     title: "<img src='assets/img/deshabitada/titulo.png' style='width: 100%;' alt='Des-habitada'>"

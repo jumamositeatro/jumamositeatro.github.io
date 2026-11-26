@@ -29,7 +29,7 @@ header:
 
 <div id="personcontainer">
   {% for personEntry in site.data.cvs %}
-  {% if personEntry[1].type == page.type || page.type == "" %}
+  {% if personEntry[1].type == page.type or page.type == "" %}
   <section class="page-section"  id="cv-{{ personId }}" style="background-color: black;">
       {% assign personId=personEntry[0] %}
       {% assign person=personEntry[1] %}
