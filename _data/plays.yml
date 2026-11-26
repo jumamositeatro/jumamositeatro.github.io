@@ -208,3 +208,68 @@ desconectados:
         url: https://www.atrapalo.com/entradas/desconectad-s_e4956233/#reviews
 
   video: https://youtu.be/h_zLuVDz-lk?si=2zRE8M8_8saSshCg
+
+deshabitada:
+  active: true 
+  title: Des-habitada
+  preview:
+    title: "Jumamosi teatro: Des-habitada"
+    #description: ""
+    #image: 
+    #url: ""
+
+  header:
+    title: "<img src='assets/img/deshabitada/titulo.png' style='width: 100%;' alt='Des-habitada'>"
+    #title: Des-conectad@s #"<img src='XXXXXXXXXXXX' style='width: 100%;' alt='Des-conectados'>" #Des-conectados
+    text: Teatro de las Aguas<br />3, 18, 23, 30 diciembre
+    button:
+      text: COMPRAR ENTRADAS
+      link: "https://www.atrapalo.com/entradas/microteatro-en-la-cueva-del-teatro-de-las-aguas_e4914255/"
+
+  gallery:
+    images:
+      - path: deshabitada/gallery/habitacion.jpg
+      - path: deshabitada/gallery/inicio.jpg
+      - path: deshabitada/gallery/cucu.jpg
+      - path: deshabitada/gallery/mochila.jpg
+      - path: deshabitada/gallery/ordenador.jpg
+    
+  aboutcard:
+    imageurl: deshabitada/cartel.jpg 
+    text: |
+      Una habitación solitaria. Cosas por todas partes.
+      Parece que su dueña está a punto de regresar.
+
+      Pero... Alicia no vuelve.
+
+      Sin embargo, estas cuatro paredes están llenas de vida.
+
+      A través de las historias, relaciones y conjeturas narradas por sus pertenencias más queridas, iremos averiguando el misterio de su desaparición. Y puede que algo más.
+
+      Un cuarto compartido por el suspense, el humor, el drama... Y los secretos guardados.
+
+      Un actual y tierno relato sobre la salud mental.
+
+      ---
+
+  team:
+    title: Elenco
+    section: equipo
+    people:
+      - name: Carmen Cortés
+        role: Mochila
+        image: deshabitada/team/carmen.jpg
+      - name: Lucía Mos
+        role: Manta
+        image: deshabitada/team/lucia.jpg
+      - name: Károl Sequera
+        role: Vestido
+        image: deshabitada/team/karol.jpg
+
+  teamtec:
+    title: Equipo técnico
+    section: equipo2
+    people:
+      - name: Elena Jurado
+        role: Dirección / Guión
+        image: nosotros/elena.jpg
