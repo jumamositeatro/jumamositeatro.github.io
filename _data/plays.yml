@@ -217,14 +217,14 @@ deshabitada:
   preview:
     title: "Jumamosi teatro: Des-habitada"
     active: true
-    description: "3, 18, 23, 30 diciembre"
+    description: "3, 10, 18, 23, 30 diciembre"
     image: https://jumamositeatro.github.io/assets/img/deshabitada/cartel.jpg
     url: "https://jumamositeatro.github.io/deshabitada.html"
 
   header:
     title: "<img src='assets/img/deshabitada/titulo.png' style='width: 100%;' alt='Des-habitada'>"
     #title: Des-conectad@s #"<img src='XXXXXXXXXXXX' style='width: 100%;' alt='Des-conectados'>" #Des-conectados
-    text: Teatro de las Aguas<br />3, 18, 23, 30 diciembre
+    text: Teatro de las Aguas<br />3, 10, 18, 23, 30 diciembre
     button:
       text: COMPRAR ENTRADAS
       link: "https://www.atrapalo.com/entradas/microteatro-en-la-cueva-del-teatro-de-las-aguas_e4914255/"
